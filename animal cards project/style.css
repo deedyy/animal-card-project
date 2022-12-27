@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: sans-serif;
+    @media screen and (max-width: 800px) {
+       
+}
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   background-color: #7209b7;
+   color: antiquewhite;
+   padding: 25px 60px;
+   margin-bottom: 30px;
+   width: 200%;
+
+}
+
+p{
+    color: rgb(51, 51, 51);
+    line-height: 27px;
+    font-size: 14px;
+  }
+  
+
+.cards{
+
+ width: fit-content; 
+ height: fit-content;  
+display: flex;
+flex-direction: row;
+justify-items: center;
+align-items: center;
+max-width: 100%;
+max-height:100%;
+}
+
+.animal1{
+
+width: 400px;
+height: 800px;
+border: 1px solid #7209b7;
+box-sizing: border-box;
+margin: 10px;
+background-color: aquamarine;
+max-height: 100%;
+
+}
+
+.animal2{
+
+width: 500px;
+height: 800px;
+border: 1px solid #7209b7;
+box-sizing: border-box;
+margin: 10px;
+background-color: palegoldenrod;
+
+}
+
+.animal3{
+
+
+    width: 400px;
+    height: 800px;
+    border: 1px solid #7209b7;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: aquamarine;
+    
+    }
+
+.list{
+    margin-left: 30px;
+    margin-top: 20px;
+        color: rgb(51, 51, 51);
+        line-height: 27px;
+        font-size: 14px;
+
+      
+}
